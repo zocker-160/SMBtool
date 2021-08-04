@@ -1,0 +1,10 @@
+1. install Blender version 249b(32bits) and Python version 26(32bits).
+2. unpack 7z archive and doubleclick file "Blender249.blend"
+3. in Blender Text Window press alt+p and select:
+- smb file - it creates new folder *_files
+4. from new folder select file:
+- skeleton - we get all textured meshes and bones
+- meshinfo - to import geometry if there is any skeleton file
+- imageinfo - to convert images
+- gr2 - to import animation
+5. if you want import only skeleton, without meshes change line 6 from getAll=1 to getAll=0
