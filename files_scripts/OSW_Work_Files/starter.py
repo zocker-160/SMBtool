@@ -1,7 +1,6 @@
-import newGameLib
-from newGameLib import *
-import Blender	
-
+#import bpy
+from .newGameLib import *
+import os
 
 getAll=1
 
